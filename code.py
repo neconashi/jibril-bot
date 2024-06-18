@@ -31,10 +31,10 @@ async def on_message(message):
             await message.channel.send('yes master')
         elif '<@1252510254382583888>' in message.content.lower() and 'good girl' in message.content.lower():
             await message.channel.send('thank you master')
-        elif '<@1252510254382583888>' in message.content.lower():
-            await message.channel.send('yes master?')
         elif 'Hello' in message.content.lower() and '<@1252510254382583888>' in message.content.lower():
             await message.channel.send('Hello master')
+        elif '<@1252510254382583888>' in message.content.lower():
+            await message.channel.send('yes master?')
 
     await bot.process_commands(message)
 
