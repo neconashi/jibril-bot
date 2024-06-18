@@ -282,3 +282,5 @@ async def cmds(ctx):
 
 # run the bot with your token
 bot.run('<token>')
+
+#hehe penis
